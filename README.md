@@ -7,7 +7,7 @@ The current implementation:
 - opens the default camera with OpenCV
 - runs inference at `imgsz=320`
 - draws detections on each frame
-- shows the live annotated result until you press `q` fileciteturn1file0L4-L5 fileciteturn1file0L7-L12 fileciteturn1file0L14-L31
+- shows the live annotated result until you press `q` 
 
 ## Project Overview
 
@@ -78,8 +78,7 @@ Then run:
 python3 detect.py
 ```
 
-A webcam window titled **YOLO26 Offline Webcam** should open and show live detections. The display window name is defined directly in the script. fileciteturn1file0L25-L25
-
+A webcam window titled **YOLO26 Offline Webcam** should open and show live detections. The display window name is defined directly in the script. 
 Press:
 
 ```text
