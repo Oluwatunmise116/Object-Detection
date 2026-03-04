@@ -1,6 +1,6 @@
-# Object Detection using YOLO on Raspberry Pi 4
+# Object Detection using YOLO on Raspberry Pi 
 
-This project runs real-time object detection on a **Raspberry Pi 4** using a **YOLO model** and a connected **webcam**. The script loads a local YOLO model file, opens the camera feed, performs detection frame by frame, and displays the annotated results in a live window.
+This project runs real-time object detection on a **Raspberry Pi** using a **YOLO model** and a connected **webcam**. The script loads a local YOLO model file, opens the camera feed, performs detection frame by frame, and displays the annotated results in a live window.
 
 The current implementation:
 - loads the local model file `yolo26n.pt`
@@ -42,7 +42,7 @@ The script follows this flow:
 ## Requirements
 
 You will need:
-- Raspberry Pi 4
+- Raspberry Pi
 - Raspberry Pi OS
 - Python 3
 - USB webcam or compatible camera
@@ -54,8 +54,8 @@ You will need:
 Create a virtual environment if you want an isolated setup:
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
+python3 -m venv yolo_object
+source yolo_object/bin/activate
 ```
 
 Install the required packages:
@@ -153,7 +153,7 @@ then OpenCV could not open the webcam. Check that:
 Make sure `yolo26n.pt` exists in the same folder as `detect.py`, or update the model path in the code.
 
 ### Slow performance
-On Raspberry Pi 4, performance depends on:
+On Raspberry Pi, performance depends on:
 - model size
 - input resolution
 - camera resolution
@@ -189,4 +189,4 @@ You can add your preferred license here, for example MIT.
 
 ## Author
 
-Add your name or project name here.
+@Oluwatunmise116
