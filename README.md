@@ -37,7 +37,7 @@ The script follows this flow:
 5. Run object detection on each frame.
 6. Draw the detection results on the frame.
 7. Display the live output window.
-8. Exit when `q` is pressed. fileciteturn1file0L1-L2 fileciteturn1file0L5-L5 fileciteturn1file0L8-L8 fileciteturn1file0L14-L31
+8. Exit when `q` is pressed. 
 
 ## Requirements
 
